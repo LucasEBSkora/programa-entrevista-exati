@@ -9,9 +9,9 @@ const char *Semaforo::imprimir() const
   switch (estadoAtual)
   {
   case verde:
-    return "verde";
+    return "verde   ";
   case amarelo:
-    return "amarelo";
+    return "amarelo ";
   case vermelho:
     return "vermelho";
   default:

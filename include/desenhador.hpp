@@ -3,6 +3,8 @@
 
 #include "semaforo.hpp"
 
+#include <chrono>
+
 class Desenhador
 {
 public:
@@ -12,6 +14,8 @@ public:
 private:
   const Semaforo &semaforoHorizontal;
   const Semaforo &semaforoVertical;
+  //retorna o número de segundos que passaram desde o time_point t0
+  unsigned int getIntervalo(std::chrono::steady_clock::time_point t0) const;
 };
 
 #endif

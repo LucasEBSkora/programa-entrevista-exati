@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
   if (argc != 5)
   {
     std::cout << "uso: simsem.exe N tV tA tT\n"
-                 "onde:\n\tN é o numero (inteiro) de ciclos completos que a simulação rodara\n"
+                 "onde:\n\tN é o numero (inteiro) de vezes que um semaforo ficara verde\n"
                  "\ttV e o tempo (em segundos) que cada semaforo ficara verde\n"
                  "\ttA e o tempo (em segundos) que cada semaforo ficara amarelo\n"
                  "\ttT e o tempo (em segundos) que um semaforo demorara para ficar verde após o outro ficar vermelho\n"
